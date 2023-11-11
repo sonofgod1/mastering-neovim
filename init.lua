@@ -8,6 +8,7 @@ vim.api.nvim_create_user_command("Alpha", function()
   local conf = require("telescope.config").values
 
   picker.new({}, {
+    --aquí estoy agregando un comentario
     prompt_title = "Alpha",
     finder = finders.new_table({
       results = { "alpha", "beta", "delta", "omega" }
