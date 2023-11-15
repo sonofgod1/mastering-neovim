@@ -42,5 +42,6 @@ return {
         }
       }
     })
+    require("lspconfig").phpactor.setup({})
   end
 }
